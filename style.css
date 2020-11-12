@@ -1,0 +1,68 @@
+.cat_btn, .station_btn {
+  outline: none;
+  cursor: pointer;
+  background-color: #3B2915;
+  color: white;
+}
+
+#ipsLayout_body {
+  max-width: 1400px;
+}
+
+.recipelist-dishes {
+  max-height: 9999px;
+}
+
+.recipelist {
+  min-height: 800px;
+}
+
+.recipelist-dishes {
+  overflow: visible;
+  overflow-y: initial !important;
+  max-height: none !important;
+  text-align: left;
+}
+
+.invisible {
+  display: none !important;
+}
+.translucent {
+  opacity: 0.2 !important;
+}
+
+.button {
+  display: inline-block;
+  line-height: normal;
+  cursor: pointer;
+  background-color: #C29970;
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
+  margin: 3px;
+  user-select: none;
+}
+
+.button:hover {
+  border-color: #000;
+  background-color: #911;
+  color: #fff;
+}
+
+input:checked + .button {
+  border-color: #000 !important;
+  background-color: #3B2915 !important;
+  color: white !important;
+}
+
+input:not(:checked) + .button {
+  border-color: #000 !important;
+  background-color: #C29970 !important;
+  color: #573c1d !important;
+}
+
+#recipebook .recipelist .dish:hover.lowpoint,
+#recipebook .recipelist .dish:active.lowpoint,
+#recipebook .recipelist .dish:focus.lowpoint {
+    transform: initial;
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+
+    <style>
+      /* code from w3 school */
+      /* Customize the label (the container) */
+      .container {
+        display: block;
+        position: relative;
+        padding-left: 35px;
+        margin-bottom: 12px;
+        cursor: pointer;
+        font-size: 22px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      /* Hide the browser's default radio button */
+      .container input {
+        position: absolute;
+        opacity: 0;
+      }
+
+      /* Create a custom radio button */
+      .checkmark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 29px;
+        width: 29px;
+        background-color: #eee;
+        border-radius: 50%;
+      }
+
+      /* On mouse-over, add a grey background color */
+      .container:hover input ~ .checkmark {
+        background-color: #ccc;
+      }
+
+      /* Create the indicator (the dot/circle - hidden when not checked) */
+      .checkmark:after {
+        content: "";
+        position: absolute;
+        display: none;
+      }
+
+      /* Show the indicator (dot/circle) when checked */
+      .container input:checked ~ .checkmark:after {
+        display: block;
+      }
+
+      /* Style the indicator (dot/circle) */
+      .container .checkmark:after {
+        width: 50px;
+        height: 50px;
+        top: -10.5px;
+        left: -10.5px;
+    
+        background-image: url(https://s3.amazonaws.com/kleiforums/GORGE/RecipeBook/images/recipe_unknown.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    </style>
+
+    <style>
+      #option-box {
+        background: url(https://s3.amazonaws.com/kleiforums/GORGE/RecipeBook/images/quagmire_recipe_menu_bg.png) no-repeat;
+        padding: 40px;
+        height: 400px;
+        width: 550px;
+      }
+      #option-box > h1 {
+        text-align: center;
+      }
+      body {
+        display: flex;
+        justify-content: center;
+      }
+      .need-translate {
+        display: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="option-box">
+      <h1 class="need-translate" data-translate="DishDisplayMode"></h1>
+      <label class="container">
+        <span class="text-content need-translate" data-translate="OpaqueAndTranslucent"></span>
+        <input type="radio" checked="checked" id="dish-display-mode-opacity" name="dish-display-mode">
+        <span class="checkmark"></span>
+      </label>
+      <label class="container">
+        <span class="text-content need-translate" data-translate="AvailableDishOnly"></span>
+        <input type="radio" id="dish-display-mode-visible" name="dish-display-mode">
+        <span class="checkmark"></span>
+      </label>
+    </div>
+    <script src="options.js"></script>
+  </body>
+</html>

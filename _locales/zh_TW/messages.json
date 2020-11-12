@@ -1,0 +1,56 @@
+{
+  "TheGorgeRecipeFilter": {
+    "message": "Gorge 食譜篩選器"
+  },
+  "TGRFDescription": {
+    "message": "在食譜上新增一些篩選器按鈕"
+  },
+  "pot": {
+    "message": "烹煮鍋(Cookpot)"
+  },
+  "oven": {
+    "message": "窯烤爐(Oven)"
+  },
+  "grill": {
+    "message": "燒烤盤(Grill)"
+  },
+  "all": {
+    "message": "全部(All)"
+  },
+  "snack": {
+    "message": "點心(Snack)"
+  },
+  "bread": {
+    "message": "麵包(Bread)"
+  },
+  "veggie": {
+    "message": "蔬菜(Veggie)"
+  },
+  "soup": {
+    "message": "湯(Soup)"
+  },
+  "fish": {
+    "message": "魚(Fish)"
+  },
+  "meat": {
+    "message": "肉(Meat)"
+  },
+  "cheese": {
+    "message": "起司(Cheese)"
+  },
+  "pasta": {
+    "message": "義大利麵(Pasta)"
+  },
+  "sweet": {
+    "message": "甜品(Dessert)"
+  },
+  "DishDisplayMode": {
+    "message": "料理顯示模式"
+  },
+  "OpaqueAndTranslucent": {
+    "message": "不透明/半透明顯示"
+  },
+  "AvailableDishOnly": {
+    "message": "僅顯示有效料理"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "TheGorgeRecipeFilter": {
+    "message": "The Gorge Recipe Filter"
+  },
+  "TGRFDescription": {
+    "message": "Add filter buttons upon gorge recipe"
+  },
+  "pot": {
+    "message": "Cookpot"
+  },
+  "oven": {
+    "message": "Oven"
+  },
+  "grill": {
+    "message": "Grill"
+  },
+  "all": {
+    "message": "All"
+  },
+  "snack": {
+    "message": "Snack"
+  },
+  "bread": {
+    "message": "Bread"
+  },
+  "veggie": {
+    "message": "Veggie"
+  },
+  "soup": {
+    "message": "Soup"
+  },
+  "fish": {
+    "message": "Fish"
+  },
+  "meat": {
+    "message": "Meat"
+  },
+  "cheese": {
+    "message": "Cheese"
+  },
+  "pasta": {
+    "message": "Pasta"
+  },
+  "sweet": {
+    "message": "Dessert"
+  },
+  "DishDisplayMode": {
+    "message": "Dish Display Mode"
+  },
+  "OpaqueAndTranslucent": {
+    "message": "Opaque and Translucent"
+  },
+  "AvailableDishOnly": {
+    "message": "Available dish only"
+  }
+}
